@@ -50,18 +50,22 @@ h2 {
 		margin-top: 230px;
 	}
 
-/* portfolio positioning and styling  */
-
-#portfolio {
-	padding-top: 60px;
-	background: white;
-}
-
 /* about positioning and styling  */
 #about {
 	text-align: center;
 	background-color: grey;
 	padding-bottom: 60px;
+}
+
+#about p {
+	font-size: 1.5em;
+}
+
+/* portfolio positioning and styling  */
+
+#portfolio {
+	padding-top: 60px;
+	background: white;
 }
 
 /* contact positioning and styling  */
