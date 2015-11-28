@@ -1,0 +1,89 @@
+/* TYPOGRAPHY */
+.navbar-default .navbar-brand {
+	font-size: 2em;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ECF0F1;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #6C7A89;
+}
+
+h1 {
+	color: #ECF0F1;
+	font-size: 4em;
+}
+
+h2 {
+	color: #ECF0F1;
+}
+
+#contact > a {
+	color: #ECF0F1;
+}
+
+/* navbar positioning and styling  */
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	color: grey;
+}
+
+.navbar-default {
+	background-color:  #F62459;
+	border: none;
+}
+
+/* home positioning and styling  */
+
+#home {
+	height: 580px;
+	background-color: #F62459;
+	text-align: center;
+}
+
+	#home h2 {
+		margin-top: 230px;
+	}
+
+/* portfolio positioning and styling  */
+
+#portfolio {
+	padding-top: 60px;
+	background: white;
+}
+
+/* about positioning and styling  */
+#about {
+	text-align: center;
+	background-color: grey;
+	padding-bottom: 60px;
+}
+
+/* contact positioning and styling  */
+#contact {
+	height: 50px;
+	background-color: #F62459;
+}
+
+.footer-link {
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+@media (max-width: 365px) {
+	h1 {
+		font-size: 3em;
+	}
+}
+
+
+
+
+
+
+
