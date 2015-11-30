@@ -41,36 +41,36 @@ h2 {
 
 /* home positioning and styling  */
 
-#home {
+.home {
 	height: 580px;
 	background-color: #f62459;
 	text-align: center;
 }
 
-	#home-h2-header {
+	.home-h2-header {
 		margin-top: 230px;
 	}
 
 /* about positioning and styling  */
-#about {
+.about {
 	text-align: center;
 	background-color: grey;
 	padding-bottom: 60px;
 }
 
-#about-paragraph {
+.about-paragraph {
 	font-size: 1.5em;
 }
 
 /* portfolio positioning and styling  */
 
-#portfolio {
+.portfolio {
 	padding-top: 60px;
 	background: white;
 }
 
 /* contact positioning and styling  */
-#contact {
+.contact {
 	height: 50px;
 	background-color: #f62459;
 }
@@ -85,10 +85,3 @@ h2 {
 		font-size: 3em;
 	}
 }
-
-
-
-
-
-
-
