@@ -1,28 +1,29 @@
 /* TYPOGRAPHY */
-.navbar-default .navbar-brand {
+.navbar-brand {
 	font-size: 2em;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: #ECF0F1;
+/*if i don't had #nav-links before the class .header-link the style doesn't apply */
+#nav-links .header-link {
+	color: #ecf0f1;
 	font-size: 1.5em;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #6C7A89;
+#nav-links .header-link:hover {
+	color: #6c7a89;
 }
 
 h1 {
-	color: #ECF0F1;
+	color: #ecf0f1;
 	font-size: 4em;
 }
 
 h2 {
-	color: #ECF0F1;
+	color: #ecf0f1;
 }
 
-#contact > a {
-	color: #ECF0F1;
+.footer-link {
+	color: #ecf0f1;
 }
 
 /* navbar positioning and styling  */
@@ -34,7 +35,7 @@ h2 {
 }
 
 .navbar-default {
-	background-color:  #F62459;
+	background-color:  #f62459;
 	border: none;
 }
 
@@ -42,11 +43,11 @@ h2 {
 
 #home {
 	height: 580px;
-	background-color: #F62459;
+	background-color: #f62459;
 	text-align: center;
 }
 
-	#home h2 {
+	#home-h2-header {
 		margin-top: 230px;
 	}
 
@@ -57,7 +58,7 @@ h2 {
 	padding-bottom: 60px;
 }
 
-#about p {
+#about-paragraph {
 	font-size: 1.5em;
 }
 
@@ -71,7 +72,7 @@ h2 {
 /* contact positioning and styling  */
 #contact {
 	height: 50px;
-	background-color: #F62459;
+	background-color: #f62459;
 }
 
 .footer-link {

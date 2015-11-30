@@ -46,19 +46,20 @@
 
 	<div id="home">
 		<div class="container">
-      
-      <header>
-        <h2>Welcome!</h2>
-  			<h1 >I AM A FRONT WEB DEVELOPER</h1>
-      </header>
-      
+      <div class="row">
+        <header>
+          <h2 id="home-h2-header">Welcome!</h2>
+  			  <h1 >I AM A FRONT WEB DEVELOPER</h1>
+        </header>
+      </div>
 		</div>
 	</div>
 
   <div id="about">
     <div class="container">
+      <div class="row">
         <h1>About Me</h1>
-          <p>I am a 23 year old aspiring Front end developer from CONGO and leaving in Kenya. I have been learning web development following some online courses like treehouse, codecademy and udemy...Currently i am working
+          <p id="about-paragraph">I am a 23 year old aspiring Front end developer from CONGO and leaving in Kenya. I have been learning web development following some online courses like treehouse, codecademy and udemy...Currently i am working
           towards getting a nanodegree in front end development from udacity.
           I am trying to build a great portfolio of work that will help me progress to be confident enough to call myself front end developper. I have recently started practicing full stack development with ruby on rails and it is coming great.
           Here below are the technologies that i am currently confident using.
@@ -71,7 +72,7 @@
             <img src="img/bootstrap.svg" alt="bootstrap" height="64" width="64">
             <img src="img/github.svg" alt="github" height="64" width="64">
             <img src="img/ruby-rails.svg" alt="ruby in rails" height="64" width="64">
-        
+      </div>  
     </div>
   </div>
 
@@ -125,7 +126,8 @@
       					</div>
     				</div>
   				</div>
-
+          
+          <!-- when i put this thumbnail in a row i have a problem with aligning the thumbnails if the screen width is 750px -->
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <img src="img/place_4.jpg" alt="some placeholder picture">
@@ -146,15 +148,19 @@
 	</div>
 
 	<footer id="contact">
-    <a href="https://github.com/destino92" class="pull-right footer-link">
-      <i class="fa fa-github-square fa-2x"></i>
-      Github profile
-    </a>
+    <div class="container">
+      <div class="row">
+        <a href="https://github.com/destino92" class="pull-right footer-link">
+          <i class="fa fa-github-square fa-2x"></i>
+          Github profile
+        </a>
 
-    <a href="mailto:destinodello@gmail.com" class="pull-right footer-link">
-      <i class="fa fa-envelope fa-2x"></i>
-      destinodello@gmail.com
-    </a>
+        <a href="mailto:destinodello@gmail.com" class="pull-right footer-link">
+          <i class="fa fa-envelope fa-2x"></i>
+          destinodello@gmail.com
+        </a>
+      </div>
+    </div>
 	</footer>
 
   <!-- Scripts -->
